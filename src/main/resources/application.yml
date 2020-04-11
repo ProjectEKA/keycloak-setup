@@ -1,0 +1,4 @@
+keycloak:
+  server: http://localhost:9001/auth
+  user: admin
+  password: welcome
