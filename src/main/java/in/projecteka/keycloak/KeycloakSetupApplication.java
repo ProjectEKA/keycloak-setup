@@ -54,7 +54,10 @@ public class KeycloakSetupApplication implements CommandLineRunner {
                 "ncg",
                 "gateway",
                 "10000005",
-                "10000002");
+                "10000002",
+                "10000010",
+                "10000011"
+                );
         createRealmAndAddClient(keycloak, "consent-manager", "http://localhost:9004", "consent-manager");
 
         log.info("Setup Complete!");
